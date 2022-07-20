@@ -51,7 +51,7 @@ public class WeekFourActivities : MonoBehaviour
         {
             Debug.Log("its hotttttttt!!!!!");
         }
-        if (celcius >= 40)
+        else (celcius >= 40)
         {
             Debug.Log("Stay inside or you'll melt");
         }
