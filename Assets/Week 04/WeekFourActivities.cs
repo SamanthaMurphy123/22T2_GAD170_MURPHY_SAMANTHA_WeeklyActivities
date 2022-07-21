@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeekFourActivities : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+  public  void Start()
     {
         int year = 364;
 
@@ -51,7 +51,7 @@ public class WeekFourActivities : MonoBehaviour
         {
             Debug.Log("its hotttttttt!!!!!");
         }
-        else (celcius >= 40)
+       // else (celcius >= 40);
         {
             Debug.Log("Stay inside or you'll melt");
         }
